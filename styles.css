@@ -75,10 +75,15 @@ html, body {
     padding: 16px 32px;
     line-height: 25.2px;
     cursor: pointer;
+    transition: .2s;
     
     @media (max-width: 767px) {
         padding: 16px 24.5px;
     }
+}
+
+.btn:hover {
+    filter: brightness(80%);
 }
 
 header {
